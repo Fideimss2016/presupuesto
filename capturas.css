@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#dedede;
+}
+
+.titulo_small {
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#ccc;
+}
+
+.spgreen
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#000;
+}
