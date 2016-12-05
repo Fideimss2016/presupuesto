@@ -1,0 +1,137 @@
+.navbar
+{
+}  
+
+.mainDiv
+{
+  width:185px;
+}
+
+.topItem
+{
+  font: 18px Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  background: url("../imagenes/jpg/arrow-up-title.jpg") no-repeat 0 0;
+  background-position:center center;
+  background-repeat:no-repeat;
+  border: none;
+  width: 185px;
+  height: 25px;
+  color: #fff;
+  cursor:pointer;
+  text-indent:10px;
+}
+
+.topItemOver
+{
+  text-indent:10px;
+  font: 18px Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  background: url("../imagenes/jpg/arrow-up-title-on.jpg") no-repeat 0 0;
+  background-position:center center;
+  background-repeat:no-repeat;
+  height: 25px;
+  width: 185px;
+  color: #efefef;
+  cursor:pointer;
+}
+
+.topItemClose
+{
+  text-indent:10px;
+  font: 18px Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  background: url("../imagenes/jpg/arrow-down-title.jpg") no-repeat 0 0;
+  background-position:center center;
+  background-repeat:no-repeat;
+  height: 25px;
+  width: 185px;
+  color: #fff;
+  cursor:pointer;
+}
+
+
+.topItemCloseOver
+{
+  text-indent:10px;
+  font: 18px Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  background: url("../imagenes/jpg/arrow-down-title-on.jpg") no-repeat 0 0;
+  background-position:center center;
+  background-repeat:no-repeat;
+  height: 25px;
+  width: 185px;
+  color: #fff;
+  cursor:pointer;
+}
+
+
+
+.dropMenu
+{
+  font: 12px Arial, Gadget, sans-serif;	
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #98CA46;
+  border-width: 0 1px 1px 1px;
+  /*filter:alpha(opacity=100);*/
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.subMenu
+{
+   display:block;
+}
+
+.subItem
+{
+   margin-left:5px;
+   margin-top:2px;
+   height:18px;
+   font: 12px Arial, Gadget, sans-serif;	
+   text-decoration:none;
+   color: #215dc6;
+   
+}
+
+.subItem a
+{
+   margin-left:5px;
+   font: 12px Arial, Gadget, sans-serif;
+   text-decoration:none;
+   color: #57BFEA;
+}
+
+.subItemOver
+{
+   margin-left:5px;
+   margin-top:2px;
+   font: 12px Arial, Gadget, sans-serif;
+   height:18px;
+   color: #428eff;
+}
+
+.subItemOver  a
+{
+   margin-left:5px;
+   font: 12px Arial, Gadget, sans-serif;
+   cursor:pointer;	
+   background-color: #57BFEA;
+   color: #ffffff;
+   text-decoration:none;
+   cursor:pointer;
+   display: block;
+   padding: 1px 5px 1px 5px;
+}
+
+
+.drop
+{
+   border-left:1px solid black;
+   border-right:1px solid black;	
+}
+
+
+
+
