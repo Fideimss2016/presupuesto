@@ -1,0 +1,24 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<title>calendario</title>
+<link type="text/css" href="jquery.datepick.css" rel="stylesheet">
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.datepick.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('#popupDatepicker').datepick();
+	$('#popupDatepickers').datepick();
+	$('#popupDatepickers1').datepick();
+	$('#popupDatepickers2').datepick();
+	$('#inlineDatepicker').datepick({onSelect: showDate});
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+</script>
+</head>
+<body>
+</body>
+</html>
